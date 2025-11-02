@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            text-decoration-style: dashed;
+            font-weight: 500;
+            border-radius: 10px;
+            background-color:burlywood;
+            color: black;
+            padding: 10px;
+            margin: 20px;
+        }
+        #results {
+            margin-top: 10px;
+            font-size: 20px;
+            color: white;
+        }
+        body {
+            background-color: darkcyan;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+       }
+       input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+       }
+      button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 20px;
+            background-color: burlywood;
+            cursor: pointer;
+       }
+    button:hover {
+        background-color: peru;
+        color: black;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    }
+    </style>
+</head>
+<body style = "background-color:darkcyan">
+    <h1>BMI CALCULATOR</h1>
+    <form>
+        <p> <label>Height in CM:</label> <input type="text" id="height"></input> </p>
+        <p> <label>Weight in KG:</label> <input type="text" id="weight"></input> </p>
+        <button type="submit">Calculate</button>
+        <div id="results"></div>
+    </form>
+</body>
+<script src="25_PROJECT.js"></script>
+</html>
+
